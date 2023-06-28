@@ -1,0 +1,6 @@
+function [train, test] = scaleData(train, test)
+
+[row, col] = size(train);
+normalMax = 1;
+normalMin = -1;
+
